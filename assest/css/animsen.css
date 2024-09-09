@@ -1,0 +1,1244 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    font-family: "Onest", sans-serif;
+     /* backdrop-filter: brightness(0.3); */
+    background: #08014d; 
+    
+    overflow-x: hidden; 
+    /* font-family: "Lato", sans-serif; */
+    /* transform: translateX(0px) !important; */
+
+    
+}
+
+.nav-ber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    position: relative;
+    z-index: 9;
+    width: 100%;
+}
+.nav-title h1{
+    margin-bottom: 0;
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+.nav-title{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+}
+.nav-title h1{
+    color: white;
+}
+.nav-text ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+.nav-text ul li{
+    padding:  10px 15px;
+    color: white;
+    text-transform: uppercase;
+}
+.add-icon i{
+    color: white;
+}
+
+.gamin-img{
+    background: #1900ff;
+    width: 100%;
+    /* position: relative; */
+}
+.gamin-img img{
+    mix-blend-mode: plus-lighter;
+    backdrop-filter: brightness(0.3);
+    
+}
+.one-page{
+    position: relative;
+}
+.se-1{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    top: -150px;
+    /* right: -150px; */
+}
+.sect-title{
+    position: absolute;
+    top: 300px;
+    width: 100%;
+}
+.hedr-text h1{
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: uppercase;
+    width: 85%;
+}
+.hedr-text p span{
+    display: inline-block;
+}
+
+.hedr-text p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    color: white;
+    display: inline-block;
+}
+.buy-btn ,
+.play-btn{
+    /* background: transparent; */
+    /* color: black; */
+    padding: 15px 50px;
+    /* background: linear-gradient(65deg, #4f0fc3 6%, #ef00ff9c 44%, #da00ff  86%); */
+    /* position: relative; *
+    /* border: 1px solid #fff; */
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+.buy-btn button,
+.play-btn button{
+    background: transparent;
+    border: 0;
+}
+.buy-btn,
+.play-btn {
+position: relative;
+}
+.play-btn button{
+    background: linear-gradient(65deg, #4f0fc3 6%, #ef00ff9c 44%, #da00ff 86%) !important;
+    -webkit-background-clip: text !important;
+    color: transparent !important;
+    text-transform: uppercase !important;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 22px;
+    position: relative;
+    z-index: 99;
+}
+.play-btn{
+    background: linear-gradient(65deg, #4f0fc314 6%, #ef00ff0f 44%, #da00ff21 86%);
+}
+.buy-btn{
+    background: linear-gradient(65deg, #4f0fc3 6%, #ef00ff9c 44%, #da00ff  86%);
+}
+.buy-btn button{
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 22px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 99;
+}
+.play-btn .mouse-coloser{
+   scale: 0; 
+}
+.buy-btn .mouse-coloser{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    scale: 0;
+}
+.color-text {
+    background: linear-gradient(65deg, #4f0fc3 6%, #ef00ff9c 44%, #da00ff  86%) !important;
+    -webkit-background-clip: text !important;
+    color: transparent !important;
+    text-transform: uppercase !important;
+    display: inline-block;
+    /* margin-left: 10px; */
+}
+.color-text span{
+    background: linear-gradient(65deg, #4f0fc3 6%, #ef00ff9c 44%, #da00ff  86%) !important;
+    -webkit-background-clip: text !important;
+    color: transparent !important;
+    text-transform: uppercase !important;
+    display: inline-block;
+}
+.detle-webs-text h2{
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+.detle-webs-text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #fff;
+    margin-bottom: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.left-side-dmove{
+    /* background: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+  /* transform: translateX(30%); */
+  overflow: hidden;
+  width: 100%;
+
+}
+.marque{
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+.marque h1{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 33px;
+}
+.templeta-slide{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    bottom: -60px;
+    transform: rotate(-2deg);
+    overflow: hidden;
+    width: 100%;
+}
+.heder-tile-text h1{
+color: white;
+font-size: 66px;
+font-weight: 800;
+line-height: 78px;
+letter-spacing: 2px;
+text-transform: uppercase;
+width: 50%;
+margin: auto;
+margin-bottom: 0;
+display: inline-block;
+
+}
+.heder-tile-text p{
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    color: white;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 0;
+}
+.slide-card-box{
+    margin-top: 90px;
+    position: relative;
+}
+.slider-img-one{
+    position: absolute;
+    top: 33%;
+    right: -7px;
+}
+.slider-img-two{
+    position: absolute;
+    top: 33%;
+    left: -7px;
+}
+.slider-img-three{
+    position: absolute;
+    top: -14px;
+    left: 31%;
+}
+.card-slider{
+    position: relative;
+    width: 691px;
+    height: 443px;
+    margin: auto;
+}
+.top-round{
+    position: absolute;
+        /* padding: 13px; */
+        background: linear-gradient(65deg, #4f0fc3 6%, #ef00ff 44%, #da00ff 86%) !important;
+        border-radius: 50px;
+        width: 65px;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 45%;
+        top: -43px;
+        z-index: 99;
+}
+.button-view{
+    margin-top: 50px;
+}
+.heder-tile-text h1 span{
+    display: inline-block;
+}
+ 
+/* swiper slider cod  */
+
+
+.swipe-one .swiper {
+      width: 100%;
+      height: 417px;
+    }
+
+  .swipe-one .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /* background: #fff; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      scale: 0.9;
+      background-color: transparent;
+      width: 652px;
+    }
+ .slide-feat   .swiper-slide-active{
+        width: 658px !important;
+        height: 417px !important;
+        scale: 1 !important;
+
+    }
+.swiper-slide-prev{
+    scale: 0.9 !important;
+}
+ .swipe-one .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+.swipe-one .swiper-slide-next{
+        scale: 0.9;
+        /* width: 658px !important;height: 417px !important;
+        /* transform: translateX(-89px) !important; */
+        /* height: 417px !important;  */
+    }
+    .swiper-wrapper{
+        align-items: center;
+    }
+ /* .swipe-one  .swiper-slide-active{
+        transform: translateX(-87px) !important
+    }
+   .swipe-one .swiper-slide{
+        transform: translateX(-89px) !important;
+    } */
+    .slide-feat{
+        position: absolute;
+        width: 100%;
+        background: transparent;
+        top: -9px;
+    }
+
+
+    /* slider css over  */
+
+
+    .Virtual-text h1{
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 55px;
+        color: white;
+        text-transform: uppercase;
+        width: 531px;
+    }
+    .Virtual-text p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 29px;
+        color: white;
+        width: 463px;
+    }
+    .tem-box{
+        background-color: rgba(255, 255, 255, 0.2);
+        position: relative;
+        backdrop-filter: blur(25px);
+        border-radius: 6px;
+        border: 1px solid;
+        border-color: rgba(255, 255, 255, 0.2);
+    }
+    .gamer-img{
+        position: absolute;
+        top: -95px;
+    }
+    .se-2{
+        margin-top: 100px;
+    }
+    .detile-box{
+        margin:  90px 0 90px 50px ;
+    }
+    .game-play-img{
+        height: 53px;
+        width: 53px;
+    }
+    .card-text-gamer{
+margin-left: 10px;
+    }
+    .card-text-gamer h6{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 19px;
+        font-family: "Lato", sans-serif;
+        margin-bottom: 5px;
+        color: white;
+        letter-spacing: 1px;
+    }
+    .card-text-gamer p{
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 11px;
+        font-family: "Lato", sans-serif;
+        margin-bottom: 0;
+        color: white;
+
+    }
+    .card-title{
+        font-weight: 500;
+        line-height: 26px;
+        font-size: 24px;
+        color: white;
+        font-family: "Lato", sans-serif;
+    }
+    .card{
+        background-color: rgba(255, 255, 255, 0.2);  
+        backdrop-filter: blur(25px);
+padding:  15px 15px;
+border-radius: 10px;
+border: 1px solid;
+border-color: rgba(255, 255, 255, 0.2);
+margin-top: 40px;
+    }
+    .caed-button button{
+        color: white;
+    text-transform: uppercase;
+    padding: 12px 50px;
+    background: linear-gradient(65deg, #4f0fc3 6%, #ef00ff9c 44%, #da00ff 86%);
+    /* position: relative; */
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    border: 0;
+    clip-path: polygon(6% 0%, 100% 0%, 93% 100%, 0% 100%);
+    font-family: "Lato", sans-serif;
+    }
+    .card-body{
+        padding: 20px 0 0 0 ;
+    }
+
+    /* secon slider css  */
+    .sceon-slider {
+        width: 100%;
+        height: 100%;
+      }
+  
+      /* .sceon-slider , .swiper ,.swiper-slide{
+        overflow: inherit !important;
+      } */
+       .slider-card{
+        margin-top: 50px;
+       }
+       .sceon-slider  .swiper-wrapper{
+        padding-bottom: 80px;
+       }
+      .slider-card-text p{
+        font-size: 16px;
+        line-height: 29px;
+        font-weight: 400;
+    font-family: "Lato", sans-serif;
+color: white;
+      }
+      .slider-box{
+        border: 1px solid;
+border-color: rgba(255, 255, 255, 0.2);
+background-color: rgba(255, 255, 255, 0.2);  
+backdrop-filter: blur(25px);
+padding: 50px 60px 25px 60px;
+position: relative;
+      }
+      .border-card{
+        height: 2px;
+        position: relative;
+        background: linear-gradient(65deg, #ffffff7d -21%, #393370 99%);
+      }
+      .user-text h5{
+        font-size: 20px;
+        line-height: 23px;
+        font-weight: 500;
+        font-family: "Lato", sans-serif ;
+        color: white;
+        margin-bottom: 5px;
+      }
+      .user-text p{
+        font-size: 11px;
+        line-height: 12px;
+        font-weight: 500;
+        font-family: "Lato", sans-serif ;
+        color: white;
+        margin-bottom: 0;
+      }
+      .reve-user h6{
+        margin-bottom: 0;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        font-family: "Lato", sans-serif ;
+        
+      }
+      .slider-top-img{
+position: absolute;
+top: 10px;
+right: 40px;
+/* z-index: 9; */
+      }
+      .cutom-btn .swiper-pagination-bullet-active {
+        background:linear-gradient(65deg, #4f0fc3 6%, #ef00ff9c 44%, #da00ff 86%) !important;
+        scale: 2 !important;
+      }
+      .cutom-btn  .swiper-pagination-bullet{
+        background: #fff;
+        scale: 1.5;
+        margin:7px !important
+      }
+      .se-3 {
+        padding-bottom: 80px;
+      }
+      .templeta-slide-two{
+        backdrop-filter: blur(30px);
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    position: absolute;
+    top: -35px;
+    transform: rotate(0deg);
+    z-index: 99;
+    overflow: hidden;
+    width: 100%;
+      }
+
+      /* footer css  */
+      .footer-img {
+        position: relative;
+        background-image: url(../img/bak.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: round;
+        padding:  90px 0 30px 0 ;
+      }
+      
+      /* .footer-detile{
+        position: absolute;
+        top: 0;
+      } */
+
+      .footer-title h1{
+font-weight: 800;
+font-size: 39px;
+line-height: 43px;
+color: white;
+letter-spacing: 1px;
+margin-bottom: 0;
+
+      }
+      .card-img {
+        height: 50px;
+        width: 50px;
+    }
+      .footer-text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 29px;
+        color: white;
+        font-family: "Lato", sans-serif ;
+margin-bottom: 0;
+width: 70%;
+
+      }
+.cuttomer-text h2{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 19px;
+    color: white;
+    text-transform: uppercase;
+}
+.cuttomer-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 30px;
+
+}
+.desing-name p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+}
+
+/* mouse btn css  */
+.mouse-coloser{
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.buy-btn .mouse-coloser::before {
+    aspect-ratio: 1;
+    /* background-color: #fffce1; */
+    background: linear-gradient(65deg, #ffffff 14%, #004cff 28%, #9C27B0 68%);
+    border-radius: 50%;
+    content: "";
+    display: block;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.play-btn .mouse-coloser::before {
+    aspect-ratio: 1;
+    /* background-color: #fffce1; */
+background: linear-gradient(65deg, #4f0fc3 6%, #ef00ff9c 44%, #da00ff  86%);
+    border-radius: 50%;
+    content: "";
+    display: block;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+.play-btn{
+    color: #fff !important;
+}
+.play-btn:hover button{
+    color: #fff !important; 
+    transition: 0.1s;
+} 
+
+
+
+@media (max-width: 1400px){
+.hedr-text h1 {
+    font-size:50px;
+    width: 90%;
+    line-height: 64px;
+
+}
+.sect-title {
+    top: 190px;
+}
+.hedr-text p {
+margin-top: 16px;
+font-size: 16px;
+line-height:27px;
+width: 85%;
+}
+.buy-btn, .play-btn {
+    padding: 13px 41px;
+}
+.se-1{
+    top: -75px;
+}
+.templeta-slide{
+background-color: rgb(255 255 255 / 35%);
+bottom: -40px;
+}
+.left-side-dmove {
+    padding: 12px;
+}
+.marque h1 {
+    font-size: 27px;
+}
+.heder-tile-text h1 {
+    font-size: 60px;
+    width: 52%;
+    line-height:70px;
+    margin-top: 40px;
+}
+.heder-tile-text p {
+    width:43%;
+    line-height:26px
+}
+.Virtual-text h1 {
+    width: 410px;
+    font-size: 45px;
+
+}
+.detile-box {
+    margin: 45px 0 45px 50px;
+}
+.gamer-img img{
+    width: 90%;
+}
+.card-title{
+    font-size: 22px;
+}
+.game-play-img {
+    width: 50px;
+    height: 50px;
+}
+.caed-button  {
+    padding: 12px 0px;
+}
+.slider-card-text p{
+font-size: 15px;
+line-height: 24px;
+}
+.card-img {
+    height: 50px;
+    width: 50px;
+}
+.footer-text {
+    width: 75%;
+}
+}
+
+
+@media (max-width: 1200px){
+    .Virtual-text h1 {
+        width: 400px;
+        font-size: 44px;
+        line-height: 46px;
+    }
+    .Virtual-text p {
+        font-size: 15px;
+        width: 400px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+    .gamer-img img{
+        width: 79%;
+    }
+    .detile-box {
+        margin: 30px 0 30px 50px;
+    }
+    .hedr-text h1{
+        width: 82%;
+        font-size:44px;
+        line-height: 50px;
+    }
+    .se-1{
+        top: -70px;
+    }
+    .sect-title {
+        top: 150px;
+    }
+    .hedr-text p {
+font-size: 16px;
+    margin-top: 10px;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+.buy-btn, .play-btn {
+    padding: 13px 32px;
+}
+.buy-btn button,.play-btn button{
+    font-size: 16px;
+}
+.templeta-slide {
+    bottom: -40px;
+}
+.detle-webs-text h2{
+    font-size: 25px;
+    line-height: 20px;
+}
+.detle-webs-text p{
+    font-size: 14px;
+    line-height: 35px;
+}
+.marque h1 {
+    font-size: 25px;
+}
+.left-side-dmove{
+    padding: 10px;
+}
+.heder-tile-text h1 {
+    font-size: 50px;
+    line-height: 58px;
+    width: 53%;
+    margin-top: 50px;
+}
+.heder-tile-text p {
+    width: 50%;
+    line-height: 26px;
+}
+.card-title {
+    font-size: 19px;
+}
+.game-play-img {
+    width: 43px;
+    height: 43px;
+}
+.caed-button button{
+    font-size: 14px;
+    padding: 9px 50px;
+}
+.caed-button {
+    padding: 4px 0px;
+}
+.slider-box{
+    padding: 50px 38px 25px 40px;
+}
+.card-img {
+    height: 45px;
+    width: 45px;
+}
+.user-text h5 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.footer-text {
+    width: 83%;
+    font-size: 15px;
+    line-height: 25px;
+}
+.footer-title h1{
+    font-size: 34px;
+}
+.footer-title img{
+    height: 45px;
+    width: 55px;
+
+}
+.cuttomer-text h2 {
+    font-size: 16px;
+    line-height: 10px;
+}
+.cuttomer-text p {
+    font-size: 15px;
+}
+/* .scolling-detile img{
+    width: 700px !important;
+} */
+}
+
+@media (max-width: 992px){
+    .gamer-img{
+        position: relative;
+        top: 0;
+    }
+    .Virtual-text h1{
+        margin: auto;
+    }
+    .Virtual-text p{
+        margin: auto;
+    }
+    .detile-box {
+        margin: 60px 0 30px 50px;
+    }
+    .btn-ply{
+        margin: auto;
+    }
+    .btn-ply{
+        text-align: center;
+    }
+    .gamer-img img {
+        width: 100%;
+    }
+    .heder-tile-text h1 {
+        font-size: 50px;
+        margin-top: 10px;
+        width:70%
+}
+.slider-box {
+    padding: 41px 20px 25px 22px;
+}
+.slider-card-text p {
+    font-size: 14px;
+    line-height: 21px;
+}
+.card-img {
+    height: 40px;
+    width: 40px;
+}
+.user-text h5 {
+    font-size: 17px;
+}
+.user-text p {
+    font-size: 10px;
+}
+.reve-user h6 {
+    font-size: 12px;
+}
+.nav-text ul li {
+    padding: 10px 10px;
+    font-size: 15px;
+}
+.sect-title{
+    position: relative;
+    top: 0;
+    margin-top: 90px;
+}
+.gamin-img{
+    position: relative;
+}
+.detile-box {
+    margin: 60px 0 33px 0px;
+}
+.hedr-text{
+    text-align: center;
+}
+.hedr-text h1{
+    margin: auto;
+}
+.hedr-text p{
+    margin: auto;
+}
+.se-2 {
+    margin-top: 70px;
+}
+
+}
+
+
+@media (max-width: 768px){
+    /* .gamin-img{
+        width: 140%;
+        left: -235px;
+    }
+    .se-1 {
+        top: -60px;
+    } */
+    .templeta-slide {
+        bottom: -37px;
+    }
+    .hedr-text h1 {
+        font-size: 37px;
+        line-height: 48px;
+        width: 100%;
+}
+.hedr-text p {
+    line-height: 25px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.heder-tile-text h1 {
+    font-size: 40px;
+    margin-top: 70px;
+    width: 100%;
+    line-height: 50px;
+}
+.heder-tile-text p {
+    width: 100%;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.button-view {
+    margin-top: 20px;
+}
+.cuttomer-text p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+.cuttomer-text h2{
+    margin-bottom: 0;
+}
+.card-slider img{
+    width: 100%;
+}
+.slide-feat{
+    position: relative;
+    top: 0;
+}
+.swipe-one .swiper-slide ,
+.swiper-slide-active{
+    width: 100% !important;
+    height: 100% !important;
+    padding:  0 20px 0 20px;
+}
+.slide-card-box {
+margin-top: 10px;}
+.se-1 {
+    top: 10px;
+}
+.se-2 {
+    margin-top: 50px;
+}
+.card-text-gamer h6 {
+    font-size: 15px;
+}
+.bran-one img, 
+.bran-two img,
+.bran-three img,
+.bran-four img,
+.bran-five img{
+    width: 120px;
+    /* height: 200px; */
+}
+.nav-btn i {
+    color: #fff;
+    }
+    .nav-text{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        display: block;
+        max-width: 270px;
+        width: 100%;
+        line-height: 40px;
+        padding: 20px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.5s ease;
+        z-index: 1000;
+        background: linear-gradient(182deg, #08014d 25.18%, rgb(132 124 216) 100%, #1d126e 130%);
+        height: 100%;
+    }
+    .nav-text ul{
+display: block;
+margin-top: 20px;
+    }
+    .nav-btn-coles i {
+        color: white;
+    }
+}
+
+
+@media (max-width: 576px){
+    .hedr-text h1{
+        font-size: 27px;
+        line-height: 28px;
+    }
+    .hedr-text p {
+        line-height: 22px;
+        font-size: 12px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .buy-btn, .play-btn {
+        padding: 9px 15px;
+    }
+    .buy-btn button, .play-btn button {
+        font-size: 13px;
+    }
+    .detle-webs-text h2 {
+        font-size: 22px;
+        line-height: 17px;
+    }
+    .detle-webs-text p {
+        font-size: 12px;
+        line-height: 35px;
+    }
+    .heder-tile-text h1 {
+        font-size: 31px;
+        margin-top: 40px;
+        width: 100%;
+        line-height: 40px;
+    }
+    .heder-tile-text p {
+        line-height: 23px;
+        font-size: 13px;
+    }
+    .Virtual-text h1{
+        width: 100%;
+        font-size: 33px;
+        line-height: 40px;
+    }
+    .Virtual-text p{
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .detile-box {
+        margin: 60px 20px 33px 20px;
+    }
+    .footer-text {
+        width: 100%;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .cuttomer-text h2 {
+        font-size: 14px;
+        line-height: 8px;
+        margin-bottom: 0;
+    }
+    .cuttomer-text p {
+        font-size: 13px;
+        margin-top: 13px;
+    }
+    .footer-img{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bran-one img, 
+    .bran-two img,
+    .bran-three img,
+    .bran-four img,
+    .bran-five img{
+        width: 70px;
+        /* height: 200px; */
+    }
+    .card {
+        margin-top: 20px;
+    }
+    .nav-title h1 {
+        font-size: 24px;
+
+}
+.button-view {
+    margin-top: 0px;
+}
+.nav-title img{
+    width: 33px;
+}
+}
+/* animsen css */
+.hedr-text h1 span{
+    display: inline-block;
+}
+.detle-webs-text{
+    overflow: hidden;
+padding: 10px 5px;
+}
+.heder-tile-text {
+overflow: hidden;
+}
+/* .vies-btn,
+.ply-btn{
+    scale: 0;
+} */
+.Virtual-text {
+    overflow: hidden;
+}
+.Virtual-text h1 span {
+    display: inline-block;
+}
+.gamer-img{
+    overflow: hidden;
+}
+.btn-ply{
+    overflow: hidden;
+}
+
+/* .slide-feat{
+    display: none;
+} */
+ .hedr-text,
+ .slide-feat,
+ .hedr-text-two {
+    overflow: hidden;
+ }
+
+ .gsamer {
+    position: relative;
+ }
+ .gsamer .an-game{
+    position: absolute;
+    top: -80px;
+    left: 0;
+ }
+ .start-text{
+    overflow: hidden;
+ }
+ .text-werap{
+    overflow: visible !important;
+ }
+
+ .textone{
+    position: relative;
+ }
+ /* .let-text{
+    opacity: 0;
+ }
+ .new-text{
+    position: absolute;
+    top: -80px;
+    left: 0;
+ } */
+
+ .show-text{
+    position: absolute;
+ }
+ .show-text h1{
+    line-height: 80px;
+ }
+
+ .fellone{
+    position: relative;
+ }
+ .fellone .fell{
+    position: absolute;
+    top: 0px;
+    left: 0;
+ }
+
+ .tile-animsen h1{
+    overflow: hidden;
+ }
+
+
+
+ .scolling-trak{
+    overflow: hidden;
+ }
+ /* .scolling-detile {
+    transform: translateX(0);
+ } */
+ .scolling-detile{
+    display: flex;
+    gap: 80px;
+ }
+ .font-text h1{
+    font-size: 95px;
+    line-height: 90px;
+    font-weight: 800;
+    color: white;
+    display: inline-block;
+ }
+ .font-text h1 .text-scoll{
+    display: inline-flex;
+    gap: 20px;
+    flex-shrink:0
+ }
+ .free{
+    display: inline-flex;
+ }
+ .text-scoll{
+    overflow: hidden;
+ }
+
+ .bran-one,
+ .bran-two,
+ .bran-three,
+ .bran-four,
+ .bran-five{
+    display: grid;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+ }
+
+ .bran-one img, 
+ .bran-two img,
+ .bran-three img,
+ .bran-four img,
+ .bran-five img{
+    grid-area: 1 / 1;
+    height: 100%;
+    text-align: center;
+ }
