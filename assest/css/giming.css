@@ -1,0 +1,2558 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body{
+ background: black;
+/*  background: linear-gradient(181deg, #000 0.82%, #210f0b 129.1%);  */
+
+}
+
+::-webkit-scrollbar{
+  height: auto;
+  width: 5px;
+  height: 5px;
+ 
+}
+
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(198, 0, 0);
+  border-radius: 15px;
+}
+.lot{
+  height: 8vh;
+}
+
+header{
+  position: sticky;
+    top: 0;
+    z-index: 1020;
+    background-color: black;
+    
+}
+
+nav.black {
+  
+  height: auto;
+  transition: .5s;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: #f8f9faa3 0px -11px 36px;
+}
+
+nav{
+  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    height: 70px;
+   
+    z-index: 99;
+    padding: 0px 50px;
+  }
+  
+  .links{
+    margin-bottom: 0;
+  }
+  nav .navbar{
+    height: 100%;
+    max-width: 1250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    /* background: red; */
+    
+  }
+  .navbar .logo a{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  nav .navbar .nav-links{
+    line-height: 0px;
+  
+  }
+  nav .navbar .links{
+    display: flex;
+  }
+  nav .navbar .links li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 14px;
+  }
+  nav .navbar .links li a{
+    margin-left: 60px;
+    text-decoration: none;
+    color: #FFF;
+
+/* Base */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+ 
+.search-box{
+  display: none;
+}
+
+  nav .navbar .links li a::after{
+    
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #FA9021;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+  }
+ 
+  .links li:hover .htmlcss-arrow,
+  .links li:hover .js-arrow{
+    transform: rotate(180deg);
+    }
+    nav .navbar .links li a:hover::after{
+        width: 100%;
+    }
+  nav .navbar .links li .arrow{
+    /* background: red; */
+    height: 100%;
+    width: 22px;
+    line-height: 70px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  nav .navbar .links li .sub-menu{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    line-height: 40px;
+    background: #3E8DA8;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 4px 4px;
+    display: none;
+    z-index: 2;
+  }
+  nav .navbar .links li:hover .htmlCss-sub-menu,
+  nav .navbar .links li:hover .js-sub-menu{
+    display: block;
+  }
+  .navbar .links li .sub-menu li{
+    padding: 0 22px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  .navbar .links li .sub-menu a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .navbar .links li .sub-menu .more-arrow{
+    line-height: 40px;
+  }
+  .navbar .links li .htmlCss-more-sub-menu{
+    /* line-height: 40px; */
+  }
+  .navbar .links li .sub-menu .more-sub-menu{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border-radius: 0 4px 4px 4px;
+    z-index: 1;
+    display: none;
+  }
+  .links li .sub-menu .more:hover .more-sub-menu{
+    display: block;
+  }
+  .navbar .search-box{
+    position: relative;
+     height: 40px;
+    width: 40px;
+  }
+  .navbar .search-box i{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .navbar .search-box .input-box{
+    position: absolute;
+    right: calc(100% - 40px);
+    top: 80px;
+    height: 60px;
+    width: 300px;
+    background: #3E8DA8;
+    border-radius: 6px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease;
+  }
+  .navbar.showInput .search-box .input-box{
+    top: 65px;
+    opacity: 1;
+    pointer-events: auto;
+    background: #3E8DA8;
+  }
+  .search-box .input-box::before{
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: #3E8DA8;
+    right: 10px;
+    top: -6px;
+    transform: rotate(45deg);
+  }
+  .search-box .input-box input{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    height: 35px;
+    width: 280px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 16px;
+    border: none;
+  }
+  .navbar .nav-links .sidebar-logo{
+    display: none;
+  }
+  .navbar .bx-menu{
+    display: none;
+  }
+  .dontbutton a{
+    border: 1px solid chocolate;
+    padding: 6px 13px;
+    border-radius: 5px;
+    background: chocolate;
+    color: white;
+    text-decoration: none;
+
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+    
+  .dontbutton a:hover {
+    color: chocolate;
+    background-color: white;
+    border: 1px solid chocolate;
+    transition: 0.5s;
+    
+}
+.dontbutton{
+  margin-left: 50px;
+  padding: 0;
+}
+
+.onderclass p{
+  margin-top: 0;
+color: white;
+
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 155.2%; /* 31.04px */
+}
+
+.seconclass h1{
+  margin-top: 0;
+  width: 73%;
+color: #d22e2e;
+
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 123.2%; 
+}
+.therclass p{
+  width: 58%;
+  margin-bottom: 0;
+color: #FFF;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 200%;
+}
+.letrbutton{
+  background: chocolate;
+  color: white;
+  border: 1px solid chocolate; 
+
+font-family: Poppins;
+transition: 0.5s;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 7px 20px;
+border-radius: 5px;
+}
+.letrbutton:hover{
+  border: 1px solid chocolate;
+  background: white;
+  color: chocolate;
+}
+.londergaming h3{
+  
+  color: white;
+
+font-family: Rubik;
+font-size: 31px;
+font-style: normal;
+font-weight: 700;
+line-height: 187.5%;
+}
+.lebelbutton{
+  border-radius: 5px;
+  padding: 2px 20px;
+  color: #FFF;
+
+font-family: Rubik;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 187.5%;
+background: none;
+border: 0;
+background: rgba(255, 255, 255, 0.11);
+
+
+}
+.gamincard p{
+  color: #FFF;
+
+font-family: Rubik;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 187.5%;
+margin-bottom: 0;
+
+}
+.long{
+
+  overflow-x: auto;
+  display: flex;
+}
+.long::-webkit-scrollbar{
+  width: 0;
+}
+.long.item{
+  max-width: 110px;
+  height: auto;
+  line-height: 110px;
+
+}
+.item{
+  width: 100%;
+}
+.centertext{
+  margin-top: 80px;
+}
+.centertext h1{
+  margin-bottom: 0;
+  color: #FFF;
+
+text-align: center;
+font-family: Poppins;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: 140.5%; 
+width: 58%;
+
+}
+.Ipsumgaming h2{
+  color: white;
+
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 140.5%;
+margin-bottom: 0;
+}
+.Ipsumgaming{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140.5%; 
+width: 50%;
+}
+.mrging{
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.bakimg{
+
+  background-image: url(../img/Rectangle\ 5.png);
+  width: 100%;
+  height: auto;
+  padding: 100px 0px;
+}
+.lorty{
+  margin-top: 60px;
+}
+.lontext {
+  padding: 0px 300px;
+}
+.lontext h1{
+  margin-bottom: 0;
+  color: #FFF;
+  
+
+text-align: center;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 140.5%; 
+}
+.lontext p{
+  margin-top: 15px;
+  margin-bottom: 0;
+  color: #FFF;
+
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 187.5%; 
+}
+.phonimg{
+  padding: 7px;
+  background-color: white;
+  border-radius: 50px;
+ }
+ .pockmen{
+  margin-top: 90px;
+  margin-bottom: 90px;
+ }
+ .spiderimg {
+  box-shadow: rgb(15 69 255) 0px 0px 44px;
+    border-radius: 7px;
+ }
+ .gamefon p{
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 187.5%;
+margin-bottom: 0;
+
+ }
+ .gmtext h3{
+  margin-bottom: 0;
+  color: white;
+
+text-align: center;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 187.5%; 
+ }
+.gmtext p{
+  margin-bottom: 0;
+  color: #FFF;
+
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 187.5%;
+}
+.colimg{
+  cursor: pointer;
+  transition: 0.5s;
+  height: 230px;
+  opacity: 0.6;
+  
+  border-radius: 23px;
+}
+.colimg:hover{
+  opacity: 0.9;
+}
+.renter{
+  margin-top: 80px;
+}
+.emailes h1{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 187.5%; 
+}
+.emailes p{
+  width: 80%;
+  max-width: 800px;
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 187.5%;
+}
+.fullbox {
+  background: linear-gradient(328deg, #e9ecef 50.18%, #dc7000  25% );
+  border-radius: 10px;
+  padding: 20px 60px;
+}
+.form-control{
+  margin-bottom: 0;
+ padding: 0;
+  width: 50%;
+  border: 0;
+  border-radius: 0;
+}
+.form-control:focus{
+  box-shadow: none;
+  border-color: 0;
+}
+.send{
+  background-color: #DC7000;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 0;
+  padding: 7px 20px;
+  border-radius: 7px;
+}
+.send p{
+  margin-bottom: 0;
+ 
+}
+
+.toping{
+  height: 62vh;
+}
+.subscribe-wrapp{
+  border: 2px solid chocolate;
+  padding: 5px 10px;
+  border-radius: 7px;
+  width: 80%;
+  background-color: white;
+}
+
+.endinfoem{
+  background-color: black;
+}
+.endtext h1{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: 153.5%;
+}
+.endtext p{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.forment p{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.loodes h6{
+  margin-bottom: 8px;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.loodes p{
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 186.3%;
+margin-bottom: 0;
+}
+.lenter p{
+  margin-bottom: 0;
+  color: #FFF;
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.icone i{
+  background: white;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 30px;
+  padding-top: 10px;
+}
+.cre i:hover{
+  transition: 0.5s;
+  color: white;
+  background: blue;
+  cursor: pointer;
+}
+.tre i:hover{
+  transition: 0.5s;
+  color: white;
+  background: red;
+  cursor: pointer;
+}
+.frt i:hover{
+  transition: 0.5s;
+  color: white;
+  background: #1D9BF0;
+  cursor: pointer;
+}
+.lrvre i:hover{
+  transition: 0.5s;
+  color: white;
+  background: #0A66C2;
+  cursor: pointer;
+}
+
+.endinfoem{
+  padding-top: 80px;  
+  padding-bottom: 30px;
+}
+.finel{
+  background-color: black;
+  border-top: 2px solid #D2D2D2;
+}
+.endinfull{
+  padding: 20px 0px;
+}
+.endinfull p{
+  margin-bottom: 0;
+  text-align: center;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 190.6%
+}
+.seconmene{
+  width: 430px;
+}
+.litelimg{
+  height: 70vh;
+}
+.seconpage h1{
+  margin-bottom: 0;
+  color: #3e7aae;
+
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 132.5%
+}
+.secondleter p{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 208.5%;
+}
+.letersd{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.with p{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 180.5%;
+}
+.blakbox{
+  margin: 0px 30px;
+  background: linear-gradient(316deg, #0d6efd -33.82%, #6c757d 90% , red 89%);
+  padding: 50px 30px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.leterfont h3{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 187.5%; 
+}
+.leterfont p{
+  margin-top: 15px;
+  margin-bottom: 0;
+  
+color: #FFF;
+
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 187.5%:
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+ 
+  object-fit: cover;
+}
+.lotbutton{
+  color: white;
+  padding: 4px 8px;
+  border: 1px solid white;
+  font-weight: 700;
+  background:black;
+  background: linear-gradient(328deg, #000 40.18%, #000 106%);
+  transition: 0.7s;
+
+}
+.lotbutton:hover{
+  border: 1px solid blue;
+  background: linear-gradient(147deg, #0d6efd 7.18%, #198754 73%);
+  transition: 0.7s;
+  
+
+}
+
+.allsecrion{
+   margin: 110px 0px;
+ 
+}
+.potomanig{
+  background-color: black;
+}
+.honters{
+  padding-top: 100px;
+}
+.hederreing p{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 202.5%; 
+}
+.lotext{
+  width: 531px;
+}
+.lotext h4{
+  margin-bottom: 0;
+  color: #ff0d13;
+
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 157.5%; 
+}
+.lotext p{
+  margin-top: 25px;
+  margin-bottom: 0;
+  color: #FFF;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 202.5%; 
+}
+
+.gotiy{
+  padding: 80px 0px;
+}
+.menhend{
+  background: blueviolet;
+  border-radius: 20px;
+  margin: 0px 20px;
+  padding: 10px 0px;
+}
+.menhend img{
+  width: 63%;
+}
+.kitey p{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 180.5%;
+
+}
+.team h5{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 19px;
+font-style: normal;
+font-weight: 600;
+line-height: 202.5%; 
+}
+.team p{
+  margin-bottom: 0;
+  color: #E8E8E8;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 202.5%;
+}
+.bolter h3{
+  margin-bottom:0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 187.5%;  
+}
+.bolter{
+  margin-top: 100px;
+
+}
+.bolter p{
+  max-width: 545px;
+  
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 187.5%; 
+}
+.therpage h1{
+  margin-bottom: 0;
+  color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 33px;
+font-style: normal;
+font-weight: 600;
+line-height: 180.5%;
+}
+.therpage p{
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: #FFF;
+
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 187.5%;
+}
+.twoclass{
+  margin: 80px 0px;
+}
+.lokale{
+  background: #FFECEC;
+  padding: 15px;
+  border-radius: 30px;
+  color: #DC7000;
+  
+}
+.loputplus h1{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Rubik;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+
+}
+.loputplus p{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+
+}
+.lofot{
+  border-radius: 80px;
+  background: linear-gradient(90deg, #f47c268c 11.18%, #1f1587a3 62% ,red 131%);
+  padding: 15px 0px;
+
+}
+.lineg{
+  height: 11vh;
+  border: 1px solid white;
+}
+.firstimges h1{
+  margin-bottom: 0;
+  color: #f47c26;
+
+  font-family: 'Montserrat', sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 150.5%;
+}
+.leterkey{
+  margin-left: 30px;
+}
+.firstimges{
+  width: 80%;
+}
+.firstimges p{
+
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #FFF;
+
+  font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150.5%;
+}
+.loter p{
+  margin-bottom: 0;
+  color: #FFF;
+
+  font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150.5%;
+}
+.imglift h1{
+  margin-bottom: 0;
+  color:#0d6efd;
+
+  font-family: 'Montserrat', sans-serif;
+font-size: 31px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.imgerp p{
+  margin-bottom: 0;
+  color: #FFF;
+
+  font-family: 'Montserrat', sans-serif;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.giptu {
+  width: 80%;
+}
+.bletrf{
+  border-radius: 7px;
+ 
+  border: 2px solid chocolate;
+  background: chocolate;
+  padding: 6px 18px;
+  color: #FFF;
+
+  font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.bletrf:hover{
+  border: 2px solid chocolate;
+  background: white;
+  color: chocolate;
+  transition: 0.5s;
+}
+
+.litrg h1{
+  color: rgb(255 16 23);
+}
+.menclassers{
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.lestinterd h1{
+  margin-bottom: 0;
+  color: #FFF;
+
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; 
+}
+.lestinterd p{
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #FFF;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 145.5%;
+}
+.lestinterd{
+  padding: 0px 400px;
+}
+.loterclass{
+  
+  padding: 15px;
+  border-radius: 10px;
+border: 2px solid #DC7000;
+}
+.visitcard h1{
+  margin-bottom: 0;
+  color: #FFF;
+
+text-align: center;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+}
+.visitcard p{
+margin-bottom: 0;
+color: #4F5665;
+
+text-align: center;
+font-family: Rubik;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+}
+.visitinreting h1{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+}
+.cardmessage h1{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 145.5%;
+}
+.loter{
+ width: 100%;
+}
+.loft{
+  color: chocolate;
+}
+
+
+
+
+.submit-btn {
+  border: none;
+  position: absolute;
+  right: 26%;
+  top: 42%;
+  transform: translateY(-50%);
+  width: 41px;
+  height: 41px;
+  background: #d2691e;
+}
+.form-contr {
+  font-weight: 500;
+  color: black;
+  border: 3px solid chocolate;
+  width: 49%;
+  outline: 0;
+  background-color: white;
+  padding: 12px 50px 12px 12px;
+}
+.form-contr:focus {
+  border: 3px solid #0d6efd;
+  transition: 0.7s;
+}
+.footer-form{
+  margin-top: 60px;
+}
+.lotey p{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 135.5%; 
+}
+.sideleter{
+  border: 2px solid white;
+}
+
+.sideleter{
+  margin: 80px 0px;
+}
+.loterg{
+  border-radius: 10px;
+}
+.lotreyimg h1{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+
+}
+.listpagerfont h1{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140.5%; 
+}
+.dider{
+  background-color: white;
+    padding: 6px 12px;
+    border-radius: 100px;
+}
+.listpagerfont{
+  height: 13vh;
+  border-right: 2px solid white;
+}
+.roamnamber p{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.roamnamber{
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+
+}
+.loler h1{
+  margin-bottom: 0;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; 
+}
+.loler p{
+  margin-bottom: 0;
+  margin-top: 15px;
+  color: #FFF;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 125%;
+}
+
+
+
+
+
+
+
+
+
+.testbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  padding: 20px;
+  }
+ 
+  .banner {
+  position: relative;
+  height: 210px;
+
+    background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  .banner::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4); 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  }
+  input, textarea {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  }
+  input {
+  width: calc(100% - 10px);
+  padding: 5px;
+  }
+  textarea {
+  width: calc(100% - 12px);
+  
+  }
+  
+  .zonter{
+    margin-bottom: 5px;
+  }
+  
+  .honter{
+
+    border: 2px solid #0d6efd;
+    border-radius: 7px;
+    color: white;
+    background: black;
+  }
+  .honter:focus{
+    outline: none;
+  }
+  .zonter{
+    color: white;
+  }
+  .btn-block button{
+    background: linear-gradient(45deg, #0d6efd -72%, #03080a 77%);;
+    padding: 6px 13px;
+    border-radius: 7px;
+    color: white;
+    border: 2px solid white;
+  }
+  .btn-block button:hover{
+    border: 2px solid blue;
+    background: white;
+    color: blue;
+    transition: 0.7s;
+  }
+  .letorf{
+    margin-top: 80px;
+  }
+
+  .kolkatey{
+    background-image: url(../img/wp8134547.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+  }
+  iframe{
+    width: 100%;
+    height: 80vh;
+    filter: invert(100%);
+    border-radius: 7px;
+    border: none;
+  }
+
+
+@media (max-width:1400px) {
+  .therclass p {
+    width: 57%;
+    font-size: 15px;
+  }
+  .seconclass h1 {
+    width: 90%;
+    font-size: 45px;
+    line-height: 128%;
+  }
+  .lebelbutton{
+    font-size: 17px;
+  }
+  .centertext h1{
+    width: 75%;
+  }
+  .Ipsumgaming {
+    width: 63%;
+  }
+  .lontext {
+    padding: 0px 189px;
+  }
+  .blakbox {
+    padding: 35px 20px;
+  }
+  .lestinterd{
+    padding: 0px 350px;
+  }
+  .lotreyimg h1 {
+    font-size: 19px;
+  }
+
+}
+
+@media (max-width:1200px) {
+  .therclass p{
+    font-size: 14px;
+  }
+  .seconclass h1 {
+    font-size: 38px;
+    line-height: 101%;
+    width: 71%;
+  }
+  .centertext h1{
+    width: 90%;
+  }
+  .Ipsumgaming {
+    width: 75%;
+  }
+  .lontext {
+    padding: 0px 117px;
+  }
+  .endtext h1{
+    font-size: 21px;
+  }
+  .endtext p {
+    font-size: 14px;
+  }
+  .forment p {
+    font-size: 14px;
+  }
+  .loodes h6 {
+    font-size: 16px;
+  }
+  .loodes p {
+    font-size: 14px;
+  }
+  .lenter p{
+    padding: 0px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .emailes p {
+    font-size: 14px;
+  }
+  .emailes h1 {
+    font-size: 27px;
+  }
+  .bolter h3{
+    font-size: 30px;
+  }
+  .bolter p{
+    line-height: 150%;
+    font-size: 15px;
+  }
+  .bolter{
+    margin-top: 80px;
+  }
+  .seconpage h1 {
+    font-size: 25px;
+  }
+  .secondleter p{
+   
+    font-size: 17px;
+  }
+  .blakbox {
+    margin: 0px 15px;
+    padding: 20px;
+  }
+  .lotext h4{
+    font-size: 25px;
+  }
+  .seconmene {
+    width: 400px;
+  }
+  .lotext p {
+    font-size: 17px;
+  }
+  .lotext {
+    width: 440px;
+  }
+  .toping {
+    height: 52vh;
+  }
+  
+ .honters{
+  padding-top: 80px;
+}
+.menhend{
+
+  margin: 0px 8px;
+  padding: 10px 0px;
+}
+.team h5{
+  font-size: 16px;
+}
+.team p{
+  font-size: 14px;
+}
+.therpage h1{
+  line-height: 130.5%;
+  font-size: 30px;
+}
+.therpage p{
+  font-size: 15px;
+  margin-top: 15px;
+}
+.leterkey{
+  margin-left: 0;
+
+}
+.firstimges{
+  width: 100%;
+}
+.firstimges h1 {
+  font-size: 28px;
+  line-height: 130.5%;
+}
+.firstimges p{
+  font-size: 14px;
+  line-height: 130.5%;
+}
+.loter p {
+  font-size: 13px;
+}
+.imglift h1 {
+  font-size: 28px;
+
+}
+.giptu{
+  width: 100%;
+}
+
+.imgerp p {
+  font-size: 15px;
+}
+.lestinterd{
+  padding: 0px 250px;
+}
+.lestinterd h1 {
+  font-size: 30px;
+}
+.visitcard h1{
+  font-size: 15px;
+}
+.cardmessage h1 {
+  font-size: 13px;
+}
+.lotreyimg h1{
+  font-size: 15px;
+}
+.bletrf {
+  font-size: 12px;
+}
+.lotey p {
+  font-size: 15px;
+}
+.form-contr {
+  width: 65%;
+}
+.submit-btn {
+  right: 18%;
+  top: 41%;
+}
+.roamnamber p{
+  font-size: 18px;
+}
+.dider {
+  font-size: 13px;
+  padding: 6px 11px;
+}
+.allsecrion{
+  margin: 80px 0px;
+}
+
+
+}
+
+
+  @media (max-width:992px) {
+   .endinfoem {
+    padding-top: 0;
+   }
+   .footer-form{
+    margin-top: 60px;
+   }
+    nav .navbar{
+      max-width: 100%;
+     
+    }
+  
+    nav .navbar .logo a{
+      font-size: 27px;
+    }
+    nav .navbar .links li{
+      padding: 0 10px;
+      white-space: nowrap;
+    }
+    nav .navbar .links li a{
+      font-size: 15px;
+      margin-left: 21px;
+    }
+    .lebelbutton{
+      padding: 2px 13px;
+      font-size: 15px;
+    }
+    .londergaming  h3{
+      font-size: 30px;
+    }
+    .therclass p{
+      font-size: 14px;
+      width: 60%;
+      line-height: 160%;
+    }
+    .letrbutton {
+      padding: 5px 14px;
+    }
+    .londergaming h3 {
+      font-size: 26px;
+      
+     
+    }
+    .fullbox{
+      background: linear-gradient(148deg, red 7%, #0000003d 48.18%, #dc7000 226%);
+
+
+    }
+    .centertext h1 {
+      width: 100%;
+      font-size: 28px;
+      line-height: 150%;
+    }
+    .gamincard p {
+      font-size: 20px;
+    }
+    .Ipsumgaming h2{
+      font-size: 28px;
+   
+    }
+    .Ipsumgaming{
+      width: 100%;
+      line-height: 160%;
+      font-size: 15px;
+    }
+    .lontext {
+      padding: 0px 60px;
+    }
+    .lontext h1 {
+      font-size: 26px;
+      line-height: 150%;
+    }
+    .lontext p {
+      line-height: 150%;
+      font-size: 14px;
+    }
+    .lenter p{
+      margin-top: 10px;
+      padding: 0;
+    }
+    .seconmene{
+      width: 100%;
+
+    }
+    .honters{
+      padding-top: 50px;
+      padding-bottom: 0px;
+    }
+    .lotext {
+      width: 100%;
+    }
+
+    .lokale{
+      padding: 12px;
+    }
+    .loputplus h1{
+      font-size: 20px;
+    }
+    .loputplus p{
+      font-size: 18px;
+    }
+    .lineg{
+      height: 10vh;
+    }
+    .firstimges p {
+      width: 90%;
+    }
+    .giptu{
+      width: 90%;
+    }
+
+    .lestinterd{
+      padding: 0px 150px;
+    }
+    .lestinterd h1 {
+      font-size: 28px;
+    }
+    .lestinterd p {
+      font-size: 13px;
+    }
+    .lotreyimg h1 {
+      font-size: 20px;
+    }
+    .sideleter{
+      margin: 50px 0;
+    }
+    .cardmessage h1{
+      font-size: 12px;
+    }
+    .letorf{
+      margin-top: 50px;
+    }
+    .lotreyimg {
+      width: 70%;
+    }
+    iframe{
+     
+      height: 70vh;
+    }
+  
+
+
+
+
+
+
+  }
+  @media (max-width:768px){
+    .subscribe-wrapp{
+      width: 100%;
+    }
+    .emailes p{
+      width: 100%;
+      font-size: 13px;
+    }
+    .footer-form{
+      margin-top: 50px;
+     }
+    .fullbox{
+      margin-top: 50px;
+    }
+    .renter{
+      margin-top: 50px;
+    }
+    .gmtext p {
+      font-size: 13px;
+    }
+    .gmtext h3{
+      font-size: 27px;
+    }
+    .pockmen{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .lontext h1{
+      font-size: 20px;
+      line-height:163%;
+
+    }
+    nav .navbar .nav-links {
+      line-height: 70px;
+      height: 100%;
+  }
+    
+    .lontext{
+      padding: 0px 10px;
+    }
+    .lontext p {
+      font-size: 12px;
+    }
+    .gamefon p{
+      font-size: 11px;
+    }
+    .Ipsumgaming {
+      font-size: 13px;
+    }
+    .centertext h1 {
+      font-size: 21px;
+      line-height:138%;
+    }
+    .mrging{
+      margin-bottom: 50px;
+      margin-top: 50px;
+    }
+    .centertext{
+      margin-top: 40px;
+      
+    }
+    .seconclass h1{
+      width: 100%;
+    }
+    .therclass p {
+      width: 80%;
+    }
+    .letrbutton{
+      font-size: 13px;
+    }
+    .lebelbutton {
+      font-size: 13px;
+    }
+    .gamesimgg{
+      height: 30vh;
+    }
+    .gamincard p {
+      font-size: 14px;
+    }
+    .bolter h3{
+      font-size: 25px;
+    }
+    .bolter p{
+      font-size: 14px;
+      max-width: 500px;
+    }
+    .bolter{
+      margin-top: 50px;
+    }
+    .therpage h1{
+      font-size: 25px;
+    }
+    .loputplus h1 {
+      font-size: 18px;
+    }
+    .loputplus p {
+      font-size: 16px;
+    }
+    .lokale {
+      padding: 10px;
+    }
+    .lofot {
+      padding: 10px 0px;
+    }
+    .menclassers {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+    .lestinterd{
+      padding: 0px 50px;
+    }
+    .lestinterd h1 {
+      line-height: 30px;
+      font-size: 26px;
+    }
+    .lestinterd p {
+      margin-top: 12px;
+      font-size: 12px;
+    }
+    .letorf {
+      margin-top: 40px;
+    }
+    .lotreyimg h1 {
+      font-size: 17px;
+    }
+    .lotey p {
+      font-size: 13px;
+    }
+    .bletrf{
+      font-size: 14px;
+    }
+    .loler h1{
+      font-size: 25px;
+    }
+    .loler p {
+      margin-top: 10px;
+      
+    }
+    .swiper-wrapper{
+      padding: 0px;
+    }
+    .menhend{
+      padding: 0;
+      margin: 0;
+    }
+   
+  
+
+  }
+  @media (max-width:767px){
+    nav{
+      /* position: relative; */
+    }
+    .navbar .bx-menu{
+      display: block;
+    }
+    nav .navbar .nav-links{
+     
+      
+      position: fixed;
+      top: 0;
+      left: -100%;
+      display: block;
+      max-width: 270px;
+      width: 100%;
+      
+      line-height: 40px;
+      padding: 20px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      transition: all 0.5s ease;
+      z-index: 1000;
+      background: linear-gradient(182deg, #000 12.18%, rgb(49 100 151) 62% , red 129%);
+     
+    }
+   
+   
+    .navbar .nav-links .sidebar-logo{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: linear-gradient(177deg, #01040a 81.18%, rgb(49 100 151) 100%);
+    }
+    .sidebar-logo .logo-name{
+      font-size: 25px;
+      color: #fff;
+    }
+      .sidebar-logo  i,
+      .navbar .bx-menu{
+        font-size: 25px;
+        color: #fff;
+      }
+    nav .navbar .links{
+      display: block;
+      margin-top: 20px;
+    }
+    nav .navbar .links li .arrow{
+      line-height: 40px;
+    }
+  nav .navbar .links li{
+      display: block;
+    }
+  nav .navbar .links li .sub-menu{
+    position: relative;
+    top: 0;
+    box-shadow: none;
+    display: none;
+  }
+  nav .navbar .links li .sub-menu li{
+    border-bottom: none;
+  
+  }
+  .navbar .links li .sub-menu .more-sub-menu{
+    display: none;
+    position: relative;
+    left: 0;
+  }
+  .navbar .links li .sub-menu .more-sub-menu li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .links li:hover .htmlcss-arrow,
+  .links li:hover .js-arrow{
+    transform: rotate(0deg);
+    }
+    .navbar .links li .sub-menu .more-sub-menu{
+      display: none;
+    }
+    .navbar .links li .sub-menu .more span{
+      /* background: red; */
+      display: flex;
+      align-items: center;
+      /* justify-content: space-between; */
+    }
+  
+    .links li .sub-menu .more:hover .more-sub-menu{
+      display: none;
+    }
+    nav .navbar .links li:hover .htmlCss-sub-menu,
+    nav .navbar .links li:hover .js-sub-menu{
+      display: none;
+    }
+  .navbar .nav-links.show1 .links .htmlCss-sub-menu,
+    .navbar .nav-links.show3 .links .js-sub-menu,
+    .navbar .nav-links.show2 .links .more .more-sub-menu{
+        display: block;
+      }
+      .navbar .nav-links.show1 .links .htmlcss-arrow,
+      .navbar .nav-links.show3 .links .js-arrow{
+          transform: rotate(180deg);
+  }
+      .navbar .nav-links.show2 .links .more-arrow{
+        transform: rotate(90deg);
+      }
+  }
+  @media (max-width:576px){
+    nav .navbar{
+      padding: 0px 25px;
+    }
+    .therclass p{
+      width: 100%;
+    }
+    .seconclass h1 {
+      font-size: 33px;
+    }
+    .Ipsumgaming{
+      font-size: 12px;
+    }
+    .centertext h1{
+      font-size: 19px;
+    }
+    .lontext h1 {
+      font-size: 18px;
+    }
+    .lontext p {
+      font-size: 10px;
+    }
+    .gamefon p {
+      font-size: 10px;
+    }
+    .emailes h1 {
+      font-size: 23px;
+    }
+    .emailes p {
+      font-size: 11px;
+    }
+    .send {
+      font-size: 11px;
+    }
+    .endinfull p {
+      font-size: 11px;
+    }
+    .endtext p {
+      font-size: 12px;
+    }
+    .loodes p {
+      font-size: 12px;
+    }
+    .lenter p {
+      font-size: 12px;
+    }
+    .icone{
+      padding: 6px 12px;
+    }
+    .fullbox{
+      padding: 20px 50px;
+    }
+    .centertext {
+      margin-top: 50px;
+    }
+    .lorty {
+      margin-top: 30px;
+    }
+    .renter {
+      margin-top: 25px;
+    }
+    .fullbox {
+      margin-top: 25px;
+    }
+    .bolter p {
+      font-size: 12px;
+    }
+    .bolter h3 {
+      font-size: 24px;
+    }
+    .bolter{
+      margin-top: 40px;
+    }
+    nav{
+      padding: 0;
+    }
+    .seconpage h1{
+      font-size: 24px;
+    }
+    .secondleter p{
+      font-size: 12px;
+    }
+    .allsecrion{
+      margin: 65px 0px;
+    }
+    .leterfont h3{
+      font-size: 17px;
+    }
+    .leterfont p {
+      margin-top: 10px;
+      font-size: 12px;
+    }
+    .hederreing p {
+      font-size: 13px;
+    }
+    .lotext h4{
+      font-size: 24px;
+      line-height: 115.5%;
+    }
+    .lotext p{
+      margin-top: 5px;
+      font-size: 12px;
+    }
+    .kitey p{
+      font-size: 21px;
+    }
+    .gotiy {
+      padding: 55px 0px;
+    }
+    .team h5{
+      font-size: 14px;
+    }
+    .team p{
+      font-size: 12px;
+    }
+    .therpage h1 {
+      font-size: 21px;
+    }
+    .therpage p {
+      font-size: 12px;
+    }
+    .firstimges h1 {
+      font-size: 25px;
+    }
+    .firstimges p {
+      font-size: 13px;
+    }
+    .imglift h1{
+      font-size: 25px;
+    }
+    .imgerp p{
+      font-size: 13px;
+    }
+    .bletrf {
+      font-size: 14px;
+      padding: 5px 14px;
+    }
+    .lofot{
+      background: none;
+    }
+    .lineg{
+      border: none;
+    }
+    .contragr{
+      padding: 10px 0;
+      background: linear-gradient(90deg, #f47c268c 11.18%, #1f1587a3 62% ,red 131%);
+
+      border-radius: 40px;
+    }
+    .lokale{
+      padding: 10px;
+      
+    }
+    .loputplus h1{
+     line-height: 20px;
+     font-size: 16px;
+      
+    }
+    .loputplus p{
+      font-size: 16px;
+      
+    }
+    .lokale {
+      
+      font-size: 14px;
+    }
+
+    .lestinterd{
+      padding: 0px 30px;
+    }
+    .lestinterd h1 {
+      line-height: 30px;
+      font-size: 26px;
+    }
+    .lestinterd p {
+      margin-top: 10px;
+      font-size: 12px;
+    }
+    .letorf {
+      margin-top: 20px;
+    }
+    .lotreyimg h1 {
+      font-size: 14px;
+    }
+    .lotey p{
+      font-size: 12px;
+    }
+    .bletrf {
+      font-size: 11px;
+    }
+    .form-contr {
+      width: 75%;
+      padding: 8px 50px 8px 25px;
+    }
+    .submit-btn {
+      right: 13%;
+      width: 38px;
+      height: 36px;
+    }
+    .loler h1{
+      font-size: 21px;
+    }
+    .loler p {
+      font-size: 11px;
+      margin-top: 8px;
+    }
+    .zonter {
+      font-size: 14px;
+    }
+    .endinfoem{
+      padding-bottom: 20px;
+    }
+    .bakimg{
+      padding: 0px;
+    }
+    .pockmen{
+      margin-top: 50px;
+    }
+    .menhend{
+      background: none;
+    }
+    .menhend{
+      margin-top: 10px;
+    }
+    .lotreyimg{
+      width: 100%;
+    }
+    
+  }
+  @media (max-width:425px){
+   
+    .fullbox{
+      padding: 20px 10px;
+    }
+    .seconclass h1 {
+      font-size: 27px;
+    }
+    .therclass p {
+      font-size: 10px;
+    }
+    .onderclass p {
+      font-size: 14px;
+    }
+    .letrbutton{
+      font-size: 10px;
+    }
+    .londergaming h3 {
+      font-size: 24px;
+    }
+    .centertext h1 {
+      font-size: 16px;
+    }
+    .Ipsumgaming {
+      font-size: 10px;
+    }
+    .Ipsumgaming h2 {
+      font-size: 25px;
+    }
+    .lontext h1 {
+      font-size: 15px;
+    }
+    .lontext p {
+      font-size: 9px;
+    }
+    .gamefon p {
+      font-size: 9px;
+    }
+    .honters{
+      padding-top: 40px;
+    }
+    .emailes h1 {
+      font-size: 20px;
+    }
+    .emailes p {
+      font-size: 9px;
+    }
+    .endtext p {
+      font-size: 10px;
+    }
+    .loodes h6 {
+      font-size: 14px;
+    }
+    .lenter p{
+      margin-top: 2px;
+      font-size: 10px;
+    }
+    .loodes p{
+      font-size: 10px;
+    }
+    .icone {
+      padding: 4px 10px;
+    }
+    .endinfull p {
+      font-size: 10px;
+    }
+    .bakimg{
+      padding: 37px 0px;  
+    } 
+    .bolter p {
+      font-size: 11px;
+    }
+    .bolter h3 {
+      font-size: 20px;
+    }
+    
+    .seconpage h1{
+      font-size: 20px;
+      line-height: 140.5%;
+
+    }
+    .secondleter p{
+      font-size: 11px;
+      line-height: 152.5%;
+    }
+    .with p {
+      font-size: 21px;
+    }
+    .allsecrion{
+      margin: 65px 0px;
+    }
+    .leterfont h3{
+      font-size: 17px;
+    }
+    .leterfont p {
+      margin-top: 10px;
+      font-size: 11px;
+    }
+    .btn{
+      font-size: 11px;
+    }
+    .hederreing p {
+      font-size: 13px;
+    }
+    .lotext h4{
+      font-size: 20px;
+      line-height: 135.5%;
+    }
+    .lotext p{
+      margin-top: 5px;
+      font-size: 12px;
+      line-height: 155.5%;
+    }
+    .kitey p{
+      font-size: 19px;
+    }
+    .gotiy {
+      padding: 55px 0px;
+    }
+    .team h5{
+      font-size: 14px;
+    }
+    .team p{
+      font-size: 12px;
+    }
+    .therpage h1{
+      font-size: 19px;
+    }
+    .firstimges h1 {
+      font-size: 18px;
+    }
+    .firstimges p {
+      font-size: 12px;
+      margin-top: 10px;
+    }
+    .loter p {
+      font-size: 12px;
+    }
+    .rightimg{
+      height: 3vh;
+    }
+    .imglift h1{
+      font-size: 18px;
+    }
+    .giptu {
+      width: 100%;
+    }
+    .imgerp p {
+      font-size: 12px;
+    }
+    .lestinterd{
+      padding: 0px;
+    }
+    .lestinterd h1 {
+      line-height: 30px;
+      font-size: 24px;
+    }
+    .lestinterd p {
+      margin-top: 10px;
+      font-size: 11px;
+    }
+    .letorf {
+      margin-top: 20pxpx;
+    }
+    .lotreyimg h1 {
+      font-size: 13px;
+    }
+    .lotey p {
+      font-size: 10px;
+    }
+    .form-contr {
+      width: 85%;
+      padding: 6px 50px 6px 15px;
+     
+    }
+    .submit-btn {
+      top: 40%;
+      right: 8%;
+      width: 33px;
+      height: 33px;
+    }
+    .footer-form{
+      margin-top: 20px;
+    }
+    .twoclass{
+      margin: 50px 0 ;
+    }
+    .sideleter{
+      margin: 35px 0;
+    }
+    .loler h1{
+      font-size: 18px;
+    }
+    .loler p {
+      font-size: 11px;
+    }
+    .zonter {
+      font-size: 13px;
+    }
+    .testbox{
+      padding: 0;
+    }
+    .submit-btn{
+      top: 41%;
+      right: 9%;
+
+    }
+    
+   
+
+
+  }
+  @media (max-width:375px){
+    .seconclass h1 {
+      font-size: 20px;
+    }
+    .therclass p{
+      font-size: 9px;
+    }
+    .londergaming h3 {
+      font-size: 21px;
+    }
+    .lebelbutton {
+      font-size: 11px;
+    }
+    .gamesimgg {
+      height: 25vh;
+    }
+    .gamincard p {
+      font-size: 11px;
+    }
+    .centertext h1 {
+      font-size: 14px;
+    }
+    .lontext h1 {
+      font-size: 13px;
+    }
+    .gmtext p {
+      font-size: 10px;
+    }
+    .gmtext h3 {
+      font-size: 24px;
+    }
+    .colimg{
+      height: 25vh;
+    }
+    .emailes h1 {
+      font-size: 17px;
+    }
+    .lotext p {
+      font-size: 10px;
+    }
+    .lotext h4 {
+      font-size: 17px;
+      line-height: 135.5%;
+  }
+  .seconpage h1{
+    font-size: 17px;
+  }
+  .secondleter p{
+    font-size: 10px;
+  }
+  .allsecrion{
+    margin: 30px 0px;
+  } 
+   .therpage h1{
+      font-size: 19px;
+    }
+    .firstimges h1 {
+      font-size: 18px;
+    }
+    .firstimges p {
+      font-size: 12px;
+      margin-top: 10px;
+    }
+    .loter p {
+      font-size: 12px;
+    }
+    .rightimg{
+      height: 3vh;
+    }
+    .imglift h1{
+      font-size: 18px;
+    }
+    .giptu {
+      width: 100%;
+    }
+    .imgerp p {
+      font-size: 12px;
+    }
+    .therpage h1{
+      font-size: 17px;
+    }
+    .therpage p{
+      font-size: 11px;
+    }
+    .firstimges h1 {
+      font-size: 16px;
+    }
+    .firstimges p {
+      font-size: 11px;
+    }
+    .loter p {
+      font-size: 11px;
+    }
+    .imglift h1{
+      font-size: 16px;
+    }
+    .imgerp p{
+      font-size: 11px;
+    }
+    .bletrf{
+      font-size: 13px;
+      padding: 4px 10px;
+    }
+    .contragr{
+      padding: 5px 0;
+    }
+    .lestinterd{
+      padding: 0px 10px;
+    }
+    .lestinterd h1 {
+      line-height: 30px;
+      font-size: 22px;
+    }
+    .lestinterd p {
+      margin-top: 10px;
+      font-size: 11px;
+    }
+    .lotreyimg h1 {
+      font-size: 11px;
+    }
+  
+    .bletrf {
+      font-size: 11px;
+      padding: 3px 7px;
+    }
+    .sideleter{
+      margin: 25px 0;
+    }
+    .loler h1{
+      font-size: 16px;
+    }
+    .loler p {
+      font-size: 10px;
+    }
+
+
+  }
+  @media (max-width:370px){
+    nav .navbar .nav-links{
+    max-width: 100%;
+  } 
+  .submit-btn {
+    top: 39%;
+  }
+  }
+  
